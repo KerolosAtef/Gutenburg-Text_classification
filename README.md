@@ -31,14 +31,10 @@
 
 # Overview
 --------------------------------
-In this project, it is required to choose 5 random books from the Gutenburg library which are of the same genre, semantically the same, and are by 5 different authors. 
+In this project we selected some books from Gutenburg library from different categories and then select random paragraphs from then and labeled this paragraphs by the book name for ground truth.</br>
+After creating the dataset we used many transformation algorithms to embed the text to numbers for modeling process like (Fast-text,BERT ,TF_IDF,BOW,Skip gram ,Glove ,LDA ,Word2Vec ,Doc2Vec)<br>
+After this we tried many clustering algorithms like(K-means,Expected-maximization(EM),Hierarchical,) and chose the champion one which achieved the kappa and silhouette score.<br>
 
-After that, it's required to build a data frame that has 200 random partitions of each book, and each partition should have 100 words.
-
-Then we should apply some preprocessing to clean the books, besides splitting the data into training and testing datasets.
-Furthermore, it is required to apply some transformations such as BOW, TFIDF, N-Grams, or Bert, in addition, build some classification models such as SVM, KNN, Naive Bayes, or Decision Trees to classify the book name.
-
-In addition to that, it is required to evaluate all models and choose the champion model among them that achieves the highest score, then apply some error analysis to this model.
 
 # Methodologies
 --------------------------------
